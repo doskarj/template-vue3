@@ -1,4 +1,4 @@
-# teamplate-vue3
+# template-vue3
 
 Template for Vue.js front-ends with Vue3, vue-router, ESLint, and Prettier. Based on vue CLI.
 
