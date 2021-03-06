@@ -1,13 +1,15 @@
 {
   "name": "teamplate-vue3",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "author": "Josef Doskar <doskar.jd@gmail.com>",
   "scripts": {
+    "start": "npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.13.8",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
@@ -25,6 +27,14 @@
     "eslint-plugin-vue": "^7.0.0-0",
     "prettier": "^1.19.1"
   },
+  "babel": {
+    "presets": [
+      "@vue/cli-plugin-babel/preset"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-optional-chaining"
+    ]
+  },
   "eslintConfig": {
     "root": true,
     "env": {
@@ -39,6 +49,21 @@
       "parser": "babel-eslint"
     },
     "rules": {}
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "printWidth": 100,
+    "htmlWhitespaceSensitivity": "ignore",
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "html"
+        }
+      }
+    ]
   },
   "browserslist": [
     "> 1%",
