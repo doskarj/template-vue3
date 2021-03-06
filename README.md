@@ -1,24 +1,14 @@
-# teamplate-vue3
+# template-vue3
 
-## Project setup
-```
-npm install
-```
+Template for Vue.js front-ends with Vue3, vue-router, ESLint, and Prettier. Based on vue CLI.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Notable scripts
+`npm install` - Installs all dependencies.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+`npm start` - Starts local development server with hot-reloading on `localhost:8080`.
 
-### Lints and fixes files
-```
-npm run lint
-```
+`npm run build` - Compiles and minifies code for production to `/dist`.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`npm test` - Runs eslint.
+
+## How to clone and create new repo?
